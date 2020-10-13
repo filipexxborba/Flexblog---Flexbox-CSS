@@ -1,0 +1,64 @@
+.superinfo-bg{
+    background: $superinfo-bg;
+    color: white;
+    a{
+        color: white;
+    }
+}
+
+.superinfo{
+    max-width: 960px;
+    margin: 0 auto;
+
+    font-size: em(14);
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+// Menu
+
+.menu-bg{
+    background: $menu-bg;
+    
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    flex-wrap: wrap;
+    
+    .logo a{
+        font-size: em(36);
+        color: white;
+        font-weight: bold;
+        margin: 0 10px;
+    }
+
+    ul{
+        display: flex;
+        li{
+            text-transform: uppercase;
+
+            a{
+                color: white;
+                font-weight: bold;
+                font-size: em(20);
+                display: block;
+                padding: 16px;
+                transition: 0.3s;
+                
+
+                &:hover{
+                    color: $superinfo-bg;
+                }
+            }
+        }
+    }
+}

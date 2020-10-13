@@ -1,0 +1,12 @@
+// Cores
+$preto: #222222;
+$superinfo-bg: #122ab2;
+$menu-bg: #2c70ff; 
+
+$cinza-claro: #f7f7f7;
+
+// Functions
+
+@function em($size, $context: 16){
+    @return $size / $context + em;
+}
